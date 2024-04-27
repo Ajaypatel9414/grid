@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+    grid-gap: 20px;
+    justify-content: center;
+
+}
+
+.image{
+    border-radius: 10px;
+    margin: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(30, 178, 189);
+    transition: 1s;
+}
+
+.image:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
